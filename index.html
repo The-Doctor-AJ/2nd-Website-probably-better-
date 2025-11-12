@@ -1,58 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>My NEW blogging site!</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <script src="function.js"></script>
-        <div id="message"><p>Sign up to get a cookie in the mail!!</p></div>
-       <header>
-         <h1>Welcome to my page!</h1>
-         <nav>
-            <a href="#About">About This Place</a> |
-            <a href="#Contact">This is how you contact me!</a> |
-            <a href="https://spacehey.com/the_doctor_aj">Check this place out!</a> |
-            <a href="#Comments">Leave your comments here!</a>
-            <hr/>
-         </nav>
-    </header>
-    <main>
-        <section id="About">
-            <h3>What is this place?</h3>
-            <p class="two">This is a place where imagination lives and thrives.
-                Well mostly just me talking about stuff that I really really like. But it is very nice to meet you and you may call me AJ. But this is where I'm going to be bloging and talking about things I like.
-                To be honest this is not my first website, but this is definilty a refresher to me so I'm glad I was able to make another website :D. Thanks for stopping by!! To who ever gets this far, you can always contact me down below!!
-            </p>
-        </section>
-        <section id="Contact">
-            <h3>This is where you contact me :D</h3>
-            <form action="#" method="post">
-            <label for="name"> Name</label>
-            <input type="text" id="name" name="name"/> <br/>
-            <br/>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="Images/logo.png" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="hello">Welcome to my website!</h1>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Home</a> | <a href="blog.html">Blogs</a> |
+              <a href="about.html">About</a> |
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div>
+          <section class="first">
+            <article>
+              <figure>
+                <img
+                  src="Images/tardis.webp"
+                  alt="T.A.R.D.I.S"
+                  height="200"
+                  width="200"
+                />
+              </figure>
+              <hgroup>
+                <h2>The Tardis</h2>
+                <h3>Look at the Tardis!!</h3>
+              </hgroup>
+              <p>
+                This is just a thing that I'm doing for like a class thing. So
+                if you find this, then don't worry about how its not done or
+                flashy or anything.
+              </p>
+            </article>
+            <article>
+              <figure>
+                <img
+                  src="Images/strat.jpg"
+                  alt="guitar"
+                  height="200"
+                  width="200"
+                />
+              </figure>
+              <hgroup>
+                <h2>I want this guitar</h2>
+                <h3>Can you give my money pleaseeee!</h3>
+                <p>
+                  I want one of these guitars, especially if its like a fender
+                  from the 60s. That or a telecaster since those are also really
+                  really good guitars!!
+                </p>
+              </hgroup>
+            </article>
+          </section>
+          <aside>
+            <section class="second">
+              <h2>Blogs you can read</h2>
+              <ul>
+                <li><a href="blog.html">DVD Collection</a></li>
+                <li><a href="blog.html">CD Collection</a></li>
+                <li><a href="blog.html">My Anime Rants</a></li>
+                <li><a href="blog.html">Video Game Collection</a></li>
+              </ul>
+            </section>
+            <section class="third">
+              <h2>Contact</h2>
+              <p>Discord : the_.doctor.</p>
+              <p>Instagram : thedoctoraj</p>
+            </section>
+          </aside>
+        </div>
+      </main>
 
-            <lable for="email">Email</lable>
-            <input type="email" id="email" name="email"/> <br/>
-            <br/>
-
-            <label for="messages">Messages</label>
-                   <p>Leave your thoughts here!</p>
-        <textarea name="comments" cols="20" rows="5">leave your thoughts here!</textarea>
-
-        <p class="one">Subscribe to get new about any updates!</p>
-        <input type="text" name="email"/>
-        <input type="image" src="Images/sub-button.jpg" width="100" height="30"/>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <p id="copy">&copy; Created by AJ Sanchez 8/28/2025</p>        
-    </footer>
-    </body>
+      <footer>&copy; 2025 AJ Sanchez</footer>
+    </div>
+  </body>
 </html>

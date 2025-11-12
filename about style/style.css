@@ -1,0 +1,40 @@
+
+body {
+      font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(about-images/background.jpg);
+  color: white;
+}
+
+header {
+    background-image: url(about-images/about.png);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    text-indent: -9999px;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.me {
+      max-width: 400px;
+  margin: 0 auto;
+  margin-top: 5rem;
+  padding: 1.5rem;
+  background: #1f2757;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 6px 8px;
+}
+
+@media (min-width: 550px) {
+}
+
